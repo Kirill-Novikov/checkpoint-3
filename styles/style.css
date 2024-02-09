@@ -1,0 +1,370 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+  width: 100%;
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1180px;
+}
+
+h1 {
+  width: 956px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #121212;
+}
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ---------------header----------------- */
+
+.header {
+  padding-top: 33px;
+  padding-bottom: 68px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 57px;
+}
+
+.nav__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid #121212;
+}
+
+/* -------------------hero---------------------- */
+
+.hero {
+  margin-bottom: 150px;
+}
+
+.hero__title {
+  max-width: 85%;
+  line-height: 100%;
+}
+
+.hero__img {
+  max-width: 100%;
+  min-height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/img-title.svg);
+}
+
+.hero__text {
+  max-width: 40%;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+  color: rgb(255, 255, 255);
+}
+
+/* ----------------------about-------------- */
+
+.about {
+  margin-bottom: 150px;
+}
+
+.about__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 138%;
+  color: rgb(18, 18, 18);
+}
+
+.about__text {
+  margin-bottom: 32px;
+  max-width: 1130px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0.5px;
+  color: rgb(18, 18, 18);
+}
+
+.about__button {
+  padding: 20px 34px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgb(173, 24, 24);
+}
+
+.about__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* --------------------project-------------------- */
+
+.project {
+  margin-bottom: 148px;
+}
+
+.project__item {
+  margin-bottom: 89px;
+}
+
+.project__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 138%;
+  color: rgb(18, 18, 18);
+}
+
+.project__wrapper-img {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 450px;
+}
+
+.project__img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.project__subtitle {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 136%;
+  letter-spacing: -0.9px;
+  color: rgb(18, 18, 18);
+}
+
+.project__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: -0.9px;
+  color: rgb(173, 24, 24);
+}
+
+.project__list {
+  margin-bottom: 88px;
+}
+
+.project__link-btn {
+  padding: 56px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 136%;
+  letter-spacing: -0.9px;
+  border-radius: 5px;
+  border: 1px solid rgb(173, 24, 24);
+  color: rgb(173, 24, 24);
+}
+
+.project__link-btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(173, 24, 24);
+  transition: 0.3s ease-in-out;
+}
+
+/* --------------------services---------------- */
+
+.services {
+  padding-top: 150px;
+  padding-bottom: 89px;
+  background: rgb(18, 18, 18);
+}
+
+.services__container {
+  background: rgb(18, 18, 18);
+}
+
+.services__item {
+  margin-bottom: 60px;
+}
+
+.services__wrapper-img {
+  width: 100%;
+  height: 270px;
+}
+
+.services__title {
+  margin-bottom: 34px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 138%;
+  color: rgb(255, 255, 255);
+}
+
+.services__wrapper-img {
+  margin-bottom: 16px;
+}
+
+.services__img {
+  width: 100%;
+}
+
+.services__subtitle {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 136%;
+  letter-spacing: -0.9px;
+  color: rgb(255, 255, 255);
+}
+
+/*--------------- layout --------------*/
+
+.layout {
+  margin-bottom: 150px;
+}
+
+.layout__contant {
+  width: 100%;
+  height: 717px;
+  position: relative;
+  background-size: cover;
+  background-image: url(../img/forest-landscape.png);
+}
+
+.layout__text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 136%;
+  letter-spacing: -0.9px;
+  color: rgb(255, 255, 255);
+}
+
+/* ------------contacts--------- */
+
+.contacts {
+  margin-bottom: 161px;
+  padding-top: 36px;
+}
+
+.contacts__title-icon {
+  position: relative;
+}
+
+.contacts__title-icon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 36px;
+  width: 14px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url(../img/ic_outline-phone-iphone.svg);
+}
+
+.contacts__title {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 138%;
+  color: rgb(18, 18, 18);
+}
+
+.contacts__tel {
+  margin-bottom: 30px;
+}
+
+.contacts__tel-link {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.2px;
+  color: rgb(18, 18, 18);
+}
+
+.contacts__email-link {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.9px;
+  opacity: 0.5;
+  color: rgb(18, 18, 18);
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  padding: 60px 0 30px 0;
+  background: rgb(18, 18, 18);
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__nav-list {
+  margin-bottom: 87px;
+  display: flex;
+  gap: 55px;
+}
+
+.footer__nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 138%;
+  color: #ffffff;
+}
+
+.footer__nav-text {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 135%;
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.footer__nav-link:hover {
+  opacity: 0.5;
+}
