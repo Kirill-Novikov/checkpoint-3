@@ -67,7 +67,7 @@ footer {
 
 .nav__link:hover {
   opacity: 0.5;
-  border-bottom: 1px solid #121212;
+  transition: 0.3s ease-in-out;
 }
 
 /* -------------------hero---------------------- */
@@ -206,7 +206,7 @@ footer {
 .project__link-btn:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(173, 24, 24);
-  transition: 0.3s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 /* --------------------services---------------- */
@@ -325,6 +325,7 @@ footer {
 
 .contacts__tel-link:hover {
   opacity: 0.5;
+  transition: 0.3s ease-in-out;
 }
 
 .contacts__email-link {
@@ -337,6 +338,7 @@ footer {
 
 .contacts__email-link:hover {
   opacity: 0.5;
+  transition: 0.3s ease-in-out;
 }
 /*---------------- footer ----------------*/
 .footer {
@@ -373,4 +375,5 @@ footer {
 
 .footer__nav-link:hover {
   opacity: 0.5;
+  transition: 0.3s ease-in-out;
 }
