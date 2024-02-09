@@ -73,7 +73,7 @@ footer {
 /* -------------------hero---------------------- */
 
 .hero {
-  margin-bottom: 150px;
+  margin-bottom: 152px;
 }
 
 .hero__title {
@@ -104,7 +104,7 @@ footer {
 /* ----------------------about-------------- */
 
 .about {
-  margin-bottom: 150px;
+  margin-bottom: 147px;
 }
 
 .about__title {
@@ -117,11 +117,11 @@ footer {
 
 .about__text {
   margin-bottom: 32px;
-  max-width: 1130px;
-  font-size: 45px;
+  max-width: 1090px;
+  font-size: 44px;
   font-weight: 400;
-  line-height: 135%;
-  letter-spacing: 0.5px;
+  line-height: 138%;
+  letter-spacing: -0.5px;
   color: rgb(18, 18, 18);
 }
 
@@ -142,7 +142,7 @@ footer {
 /* --------------------project-------------------- */
 
 .project {
-  margin-bottom: 148px;
+  margin-bottom: 152px;
 }
 
 .project__item {
@@ -151,7 +151,7 @@ footer {
 
 .project__title {
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 138%;
   color: rgb(18, 18, 18);
@@ -212,7 +212,7 @@ footer {
 /* --------------------services---------------- */
 
 .services {
-  padding-top: 150px;
+  padding-top: 146px;
   padding-bottom: 89px;
   background: rgb(18, 18, 18);
 }
@@ -231,8 +231,8 @@ footer {
 }
 
 .services__title {
-  margin-bottom: 34px;
-  font-size: 18px;
+  margin-bottom: 32px;
+  font-size: 21px;
   font-weight: 400;
   line-height: 138%;
   color: rgb(255, 255, 255);
@@ -257,7 +257,7 @@ footer {
 /*--------------- layout --------------*/
 
 .layout {
-  margin-bottom: 150px;
+  margin-bottom: 153px;
 }
 
 .layout__contant {
@@ -282,8 +282,8 @@ footer {
 /* ------------contacts--------- */
 
 .contacts {
-  margin-bottom: 161px;
-  padding-top: 36px;
+  margin-bottom: 157px;
+  padding-top: 32px;
 }
 
 .contacts__title-icon {
@@ -294,7 +294,7 @@ footer {
   content: "";
   display: block;
   position: absolute;
-  bottom: 36px;
+  bottom: 38px;
   width: 14px;
   height: 24px;
   background-repeat: no-repeat;
@@ -304,15 +304,15 @@ footer {
 }
 
 .contacts__title {
-  margin-bottom: 32px;
-  font-size: 18px;
+  margin-bottom: 30px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 138%;
   color: rgb(18, 18, 18);
 }
 
 .contacts__tel {
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 }
 
 .contacts__tel-link {
@@ -323,15 +323,21 @@ footer {
   color: rgb(18, 18, 18);
 }
 
+.contacts__tel-link:hover {
+  opacity: 0.5;
+}
+
 .contacts__email-link {
   font-size: 60px;
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -1.9px;
-  opacity: 0.5;
   color: rgb(18, 18, 18);
 }
 
+.contacts__email-link:hover {
+  opacity: 0.5;
+}
 /*---------------- footer ----------------*/
 .footer {
   padding: 60px 0 30px 0;
