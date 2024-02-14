@@ -264,6 +264,7 @@ section {
 }
 
 .layout__text {
+  width: 450px;
   position: absolute;
   left: 125px;
   bottom: 60px;
@@ -277,19 +278,15 @@ section {
 /* ------------contacts--------- */
 
 .contacts {
-  margin-bottom: 157px;
-  padding-top: 32px;
+  margin-bottom: 161px;
+  padding-top: 4px;
 }
 
-.contacts__title-icon {
-  position: relative;
-}
-
-.contacts__title-icon::after {
+.contacts__title::before {
   content: "";
   display: block;
-  position: absolute;
-  bottom: 38px;
+  position: relative;
+  bottom: 9px;
   width: 14px;
   height: 24px;
   background-repeat: no-repeat;
@@ -314,7 +311,7 @@ section {
   font-size: 60px;
   font-weight: 400;
   line-height: 100%;
-  letter-spacing: -1.2px;
+  letter-spacing: -1.1px;
   color: rgb(18, 18, 18);
 }
 
